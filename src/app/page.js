@@ -2,7 +2,6 @@ import dynamic from "next/dynamic";
 import ListProjects from "../components/list-projects";
 import Link from "next/link";
 import Image from "next/image";
-import Scene from "../components/Scene"
 
 const Scene = dynamic(() => import("../components/Scene/"), {
   ssr: false,
